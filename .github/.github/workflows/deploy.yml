@@ -8,6 +8,7 @@ on:
 env:
   AWS_REGION: us-east-2
   ECR_REPOSITORY: restaurant-company
+  # Trigger new deployment
 
 jobs:
   build-and-push:
